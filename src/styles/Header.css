@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+  margin-left: 4rem;
+}
+
+li {
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+}
+li:hover {
+  text-decoration: underline;
+}
+li.active {
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+}
+
+span {
+  margin-right: 20px;
+}
